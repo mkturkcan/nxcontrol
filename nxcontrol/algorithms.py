@@ -1,5 +1,5 @@
 import networkx as nx
-from hopcroftKarp import HopcroftKarp
+from .hopcroftKarp import HopcroftKarp
 
 def bipartite_unroll(G):
     """Returns bipartite projection of a directed graph ``G``.
